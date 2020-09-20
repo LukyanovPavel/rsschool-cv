@@ -70,6 +70,10 @@ img {
     background-color: darkgray;
 }
 
+.section-skills > div {
+    padding: 20px;
+}
+
 .section-education {
     padding-top: 50px;
     margin: auto;
