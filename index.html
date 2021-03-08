@@ -1,40 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="section-info">
-        <h1 class="my-name-info">My name is Pavel Lukyanov</h1>
-        <div class="description-info">My goal is to learn to program and find a job. Now the priority is studying at rs-school and getting into the second stage.  Now I combine my main work and study here. I spend all my free time on it.</div>
-        <div class="contact-info">
-            <img src="ZXarYHKBlpw.jpg" alt="my-photo">
-            <a href="tel: +375297725665"><b>tel</b>: +375(29)772-56-65</a>
-            <a href="mailto: pasha6997@mail.ru"><b>e-mail</b>: pasha6997@mail.ru</a>
-            <a href="skype: m6_prestizh"><b>skype</b>: m6_prestizh</a>
-        </div>
-    </section>
-    <section class="section-skills">
-        <h2 class="skills-title">Skills</h2>
-            <div>HTML5/CSS3</div>
-            <div>JS basics</div>
-    </section>
-    <section class="section-education">
-        <h2 class="education">Education</h2>
-        <div class="education-description">I graduated from BNTU as a civil engineer</div>
-    </section>
-    <section class="section-course">
-        <h2 class="course">Course</h2>
-        <div><a href="">https://www.learn.javascript.ru/</a></div>
-        <div class="course-list-item"><a href="">https://www.codecademy.com/</a></li>
-        <div class="course-list-item"><a href="">self education</a></div>
-    </section>
-    <section class="section-eng">
-        <h2 class="eng-skill-title">English</h2>
-        <div class="skill-description">My english level is</div>
-    </section>
+    <div class="wrapper">
+        <header>
+            <div>
+                <h1><span class="small">trainee web developer</span><br>pavel<br>lukyanov</h1>
+            </div>
+        </header>
+        <main>
+            <img class="block myPhoto" src="image/trur.jpg" alt="My photo">
+            <div class="empty"></div>
+            <section class="block contacts">
+                <h2>contacts</h2>
+                <ul>
+                    <li>mobile: +375(29)772-56-65s;</li>
+                    <li>email: pasha6997@gmail.com;</li>
+                    <li>address: 69 Slobodskaya Street, Minsk, Belarus.</li>
+                </ul>
+            </section>
+            <section class="block hard_skills">
+                <h2>hard skills</h2>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML5/CSS3</li>
+                    <li>Flex and Grid</li>
+                    <li>Adaptive Layout</li>
+                    <li>Git</li>
+                    <li>Figma</li>
+                </ul>
+            </section>
+            <section class="block work_exp">
+                <h2>work experience</h2>
+                <ul>
+                    <li>
+                        <div>
+                            <h4>construction site foreman</h4>
+                            <p>ООО «Белподземстрой» (04.02.2019 – 15.01.2020)
+                                -
+                                The main task was to control the implementation of the construction plan and ensurethe implementation of construction and installation work on the site in accordancewith the working drawings and the project for the production of works</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>sales manager</h4>
+                        <p>ООО «Атимекс Консалт» (25.02.2020 – 03.11.2020)
+                            -
+                            Responsibilities included: advising clients on the product, technical support,consulting on investment issues, creating a comfortable climate in the team,participated in the development of financial andtechnological tools.</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="block other_skills">
+                <h2>other skills</h2>
+                <ul>
+                    <li>Team Work</li>
+                    <li>Detail oriented</li>
+                    <li>Excellent problem solver</li>
+                    <li>Analytical mindset</li>
+                </ul>
+            </section>
+            <section class="block education">
+                <h2>education</h2>
+                <p>BELARUSIAN NATIONAL TECHNICAL UNIVERSITY <br>
+                    Transport communications faculty specialty bridges, transport tunnels and subways</p>
+            </section>
+            <section class="block language">
+                <h2>language</h2>
+                <p>English-Intermediate (B1)</p>
+            </section>
+            <section class="block projects">
+                <h2>projects</h2>
+                <ul>
+                    <li><a href="https://elegant-shaw-dc338b.netlify.app/">Site layout for pixel perfect</a></li>
+                    <li><a href="https://ibb.co/S3wmH1x">link to code examples</a></li>
+                </ul>
+            </section>
+
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="https://www.instagram.com/pavel_lukyanov_/?hl=ru"><img class="social inst" src="image/instagram-brands.svg" alt="inst"></a></li>
+                    <li><a href="https://vk.com/id89647363"><img class="social vk" src="image/vk-brands.svg" alt="vk"></a></li>
+                    <li><a href="https://github.com/LukyanovPavel"><img class="social git" src="image/github-square-brands.svg" alt="git"></a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+
 </body>
 </html>
