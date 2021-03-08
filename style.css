@@ -1,68 +1,107 @@
-* {
+*{
     margin: 0;
     padding: 0;
+    font-family: 'Shippori Mincho B1', serif;
 }
 
-body {
-    width: 100%;
-    background-color: lightgray;
-    text-align: center;
-}
-
-.section-info {
+.wrapper{
     margin: auto;
-    width: 1200px;
-    background-color: darkgray;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em 1em;
+    max-width: 1000px;
 }
-
-.my-name-info {
-    padding-top: 50px;
-    text-transform: uppercase;
-    background-color: darkgray;
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1em 5em;
 }
-
-.description-info {
-    margin: auto;
-    padding-top: 50px;
-    width: 400px;
-}
-
-img {
-    margin: auto;
-    width: 300px;
-    padding-top: 50px;
-}
-
-.contact-info {
-    margin-top: 50px;
+header{
     display: flex;
-    flex-direction: column;
-    background-color: darkgray;
+    justify-content: flex-end;
+    height: 200px;
+    background-color: #2150BD;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-bottom: solid 3px black;
 }
-
-.contact-info > a {
-    color: black;
-    padding: 10px;
-    text-decoration: none;
+header>div{
+    align-self: flex-end;
+    margin-right: 10em;
 }
-
-.skills-title {
+.small{
+    font-size: 12px;
+    word-spacing: 0.3em;
+    letter-spacing: 6px;
+}
+h1{
+    font-size: 3em;
+    line-height: 1em;
+    padding-bottom: 0.4em;
+    letter-spacing: 10px;
+}
+h2{
+    text-transform: uppercase;
+    padding-bottom: 1em;
+}
+h4{
     text-transform: uppercase;
 }
-
-.education {
-    text-transform: uppercase;
+.block{
+    border-bottom: solid 2px black;
+    padding-bottom: 2em;
 }
-.section-course {
-    padding-top: 50px;
-    margin: auto;
-    width: 1200px;
-    background-color: darkgray;
+.myPhoto{
+    border: none;
+    width: 250px;
+    position: absolute;
+    top: -10em;
+    left: 5em;
 }
-
-.section-eng {
-    padding-top: 50px;  
-    margin: auto;
-    width: 1200px;
-    background-color: darkgray;
+main{
+    position: relative;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+main>section>ul{
+    padding-left: 2em;
+}
+.language,.projects{
+    border: none;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #2150BD;
+    color: #ffffff;
+}
+nav>ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+nav>ul>li{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+.social:hover{
+    height: 35px;
+}
+.inst{
+    width: 35px;
+    height: 40px;
+}
+.vk{
+    width: 45px;
+    height: 40px;
+}
+.git{
+    width: 35px;
+    height: 40px;
 }
