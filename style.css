@@ -53,34 +53,6 @@ img {
 .education {
     text-transform: uppercase;
 }
-
-
-.course {
-    text-transform: uppercase;
-}
-
-.eng-skill-title {
-    text-transform: uppercase;
-}
-
-.section-skills {
-    padding-top: 50px;
-    margin: auto;
-    width: 1200px;
-    background-color: darkgray;
-}
-
-.section-skills > div {
-    padding: 20px;
-}
-
-.section-education {
-    padding-top: 50px;
-    margin: auto;
-    width: 1200px;
-    background-color: darkgray;
-}
-
 .section-course {
     padding-top: 50px;
     margin: auto;
